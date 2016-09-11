@@ -1,0 +1,149 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2016-09-11T08:36:16Z",
+  "lang": "en-US",
+  "results": {
+   "channel": {
+    "units": {
+     "distance": "km",
+     "pressure": "mb",
+     "speed": "km/h",
+     "temperature": "C"
+    },
+    "title": "Yahoo! Weather - Christchurch, Canterbury, NZ",
+    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2348327/",
+    "description": "Yahoo! Weather for Christchurch, Canterbury, NZ",
+    "language": "en-us",
+    "lastBuildDate": "Sun, 11 Sep 2016 08:36 PM NZST",
+    "ttl": "60",
+    "location": {
+     "city": "Christchurch",
+     "country": "New Zealand",
+     "region": " Canterbury"
+    },
+    "wind": {
+     "chill": "43",
+     "direction": "68",
+     "speed": "11.27"
+    },
+    "atmosphere": {
+     "humidity": "88",
+     "pressure": "34304.13",
+     "rising": "0",
+     "visibility": "25.43"
+    },
+    "astronomy": {
+     "sunrise": "6:37 am",
+     "sunset": "6:15 pm"
+    },
+    "image": {
+     "title": "Yahoo! Weather",
+     "width": "142",
+     "height": "18",
+     "link": "http://weather.yahoo.com",
+     "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+    },
+    "item": {
+     "title": "Conditions for Christchurch, Canterbury, NZ at 07:00 PM NZST",
+     "lat": "-43.527519",
+     "long": "172.635422",
+     "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2348327/",
+     "pubDate": "Sun, 11 Sep 2016 07:00 PM NZST",
+     "condition": {
+      "code": "31",
+      "date": "Sun, 11 Sep 2016 07:00 PM NZST",
+      "temp": "7",
+      "text": "Clear"
+     },
+     "forecast": [
+      {
+       "code": "32",
+       "date": "11 Sep 2016",
+       "day": "Sun",
+       "high": "13",
+       "low": "3",
+       "text": "Sunny"
+      },
+      {
+       "code": "34",
+       "date": "12 Sep 2016",
+       "day": "Mon",
+       "high": "16",
+       "low": "1",
+       "text": "Mostly Sunny"
+      },
+      {
+       "code": "30",
+       "date": "13 Sep 2016",
+       "day": "Tue",
+       "high": "13",
+       "low": "3",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "30",
+       "date": "14 Sep 2016",
+       "day": "Wed",
+       "high": "15",
+       "low": "5",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "30",
+       "date": "15 Sep 2016",
+       "day": "Thu",
+       "high": "12",
+       "low": "4",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "39",
+       "date": "16 Sep 2016",
+       "day": "Fri",
+       "high": "15",
+       "low": "8",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "30",
+       "date": "17 Sep 2016",
+       "day": "Sat",
+       "high": "17",
+       "low": "6",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "26",
+       "date": "18 Sep 2016",
+       "day": "Sun",
+       "high": "11",
+       "low": "8",
+       "text": "Cloudy"
+      },
+      {
+       "code": "12",
+       "date": "19 Sep 2016",
+       "day": "Mon",
+       "high": "9",
+       "low": "7",
+       "text": "Rain"
+      },
+      {
+       "code": "30",
+       "date": "20 Sep 2016",
+       "day": "Tue",
+       "high": "11",
+       "low": "4",
+       "text": "Partly Cloudy"
+      }
+     ],
+     "description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/31.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Clear\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Sunny. High: 13Low: 3\n<BR /> Mon - Mostly Sunny. High: 16Low: 1\n<BR /> Tue - Partly Cloudy. High: 13Low: 3\n<BR /> Wed - Partly Cloudy. High: 15Low: 5\n<BR /> Thu - Partly Cloudy. High: 12Low: 4\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2348327/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)\n<BR />\n]]>",
+     "guid": {
+      "isPermaLink": "false"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,45 @@
+html, body {
+    font-family: Courier New, Courier, monospace;
+    height: 100%;
+}
+
+.head_bg { 
+    background-image: url("../food.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+#city {
+    width: 60%;
+    margin: auto;
+}
+
+.wrapper {
+    margin: 1%;
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+    
+    text-align: center;
+    background-color: silver;
+}
+.bg2{
+    background-color: silver;
+    width: 100%;
+}
+
+.bg1 {
+    background-color:inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
