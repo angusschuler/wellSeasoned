@@ -4,7 +4,7 @@ var region = "";
 var country = "";
 var temp = "";
 function getWeather() {
-    var location = $('#city').val();
+    var location = document.getElementById("city").value;
     $.get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22' + location + '%22)%20and%20u%3D%22c%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys', function (data) {
         /* Check that a place was found (we'll just grab the first) */
         if (data.query.results === null) {
@@ -42,5 +42,4 @@ function chooseMeal(condition) {
             document.getElementById("recipe").innerHTML = "<h3>Pumpkin Soup</h3><a href='http://www.bbcgoodfood.com/recipes/7730/pumpkin-soup' target='_blank'><img src='http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--879453_11.jpg?itok=unHBDg-O' width=60% class=\"center-block img-rounded img-responsive\" /></a>";
             break;
     }
-    $('.container').show();
 }
