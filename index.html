@@ -17,29 +17,38 @@
   <script src="./js/main.js"></script>
 </head>
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1614905952135929";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
   <div class="jumbotron head_bg">
     <h1>Welcome to Well Seasoned</h1>
     <p>Your seasonal meal companion!</p>
   </div>
-  <div class="container-fluid text-center">
+  <div class="container-fluid bg_1 text-center">
     <h1>Welcome</h1>
     <p>Here at Well Seasoned we strive to help you pick delicious meals that better reflect the weather outside</p>
-    <div class="wrapper">
-      <input id="city" type="text" class="form-control" placeholder="Enter City" required>
-      <button id="button" class="btn btn-default" onclick="getWeather()">Get Recipe</button>
-      <div class="row-content text-center bg2">
-        <div class="col-sm-4 bg1">
-          <p id="recipe"></p>
-        </div>
-        <div class="col-sm-8 bg1">
-          <p id="weather"></p>
+  </div>
+  <div class="container-fluid bg_2 text-center">
+    <input id="city" type="text" name="search" placeholder="Enter a City"><button id="button" class="btn btn-default" onclick="getWeather()">Get Recipe</button>
+    <div class="row-content text-center bg2">
+      <div class="col-sm-4 bg1">
+        <p id="recipe"></p>
       </div>
-     </div> 
+      <div class="col-sm-8 bg1">
+        <p id="weather"></p>
+      </div> 
     </div>
   </div>
   <footer class="container-fluid text-center footer">
     <p>Authored by Angus Schuler<br>September 2016</p>
-    <a class="footerlink" href="#">GitHub Link</a>
+    <a class="footerlink" href="#"><p>GitHub Link</p></a>
+    <div class="fb-share-button" data-href="https://wellseasoned&#064;azurewebsites.net/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fazurewebsites.net%2F&amp;src=sdkpreparse">Share</a></div>
   </footer>
 </body>
 </html>

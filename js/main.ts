@@ -41,7 +41,7 @@ function chooseMeal(condition: string) {
             document.getElementById("recipe").innerHTML = "<h3>Chicken Caesar Salad</h3><a href='http://www.bbcgoodfood.com/recipes/6296/the-ultimate-makeover-chicken-caesar-salad' target='_blank'><img src='http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--1274491_8.jpg?itok=Uuew-cMJ' width=60% class=\"center-block img-rounded img-responsive\" /></a>";
             break;
         default:
-            document.getElementById("recipe").innerHTML = "<h3>Chicken, Sweet Potato & Coconut Curry</h3><a href='http://www.bbcgoodfood.com/recipes/1555/chicken-sweet-potato-and-coconut-curry' target='_blank'><img src='http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--1035630_11.jpg?itok=VHXc71xK' width=60%  class=\"center-block img-rounded img-responsive\" /></a>";
+            document.getElementById("recipe").innerHTML = "<h3>Pumpkin Soup</h3><a href='http://www.bbcgoodfood.com/recipes/7730/pumpkin-soup' target='_blank'><img src='http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--879453_11.jpg?itok=unHBDg-O' width=60% class=\"center-block img-rounded img-responsive\" /></a>";
             break;
     }
     $('.container').show();
