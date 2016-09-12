@@ -5,7 +5,7 @@ var country = "";
 var temp = "";
 function getWeather() {
     var location = $('#city').val();
-    $.get('https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="' + location + '")&u="c"&format=json', function (data) {
+    $.get('https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22' + location + '%22)%20and%20u%3D%22c%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys', function (data) {
         /* Check that a place was found (we'll just grab the first) */
         if (data.query.results === null) {
             alert("Location not found: " + location + "!");
@@ -21,7 +21,7 @@ function getWeather() {
     });
 }
 function chooseMeal(condition) {
-    document.getElementById("weather").innerHTML = '<h2>' + city + ', ' + region + '<br>' + country + '</h2>' + condition + ' at ' + temp + ' degrees celsius';
+    document.getElementById("weather").innerHTML = '<a href="https://www.yahoo.com/?ilc=401" target="_blank"><h2>' + city + ', ' + region + '<br>' + country + '</h2>' + condition + ' at ' + temp + ' degrees celsius</a>';
     switch (condition) {
         case "Sunny":
             document.getElementById("recipe").innerHTML = "<h3>BBQ Chicken Burgers</h3><a href='http://www.bbcgoodfood.com/recipes/681635/bbq-chicken-burgers' target='_blank'><img src='http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--356452_10.jpg?itok=_NFlQAYa' class=\"center-block img-rounded img-responsive\" /></a>";
