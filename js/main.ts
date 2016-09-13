@@ -27,8 +27,7 @@ function getWeather() {
 
         if (data.query.results === null) {
             alert("Location not found: " + location);
-
-        } else if (location == "Ollie"){
+        } else if (location === "Ollie"){
             document.getElementById("recipe").innerHTML = "<h3>Hey there...</h3><img src='https://scontent.fwlg1-1.fna.fbcdn.net/v/t1.0-0/p206x206/11986465_10207896272872723_8728011847257622060_n.jpg?oh=724e59e4b987cbd490eba3cd3968df35&oe=583C821E' width=60% class=\"center-block img-rounded img-responsive\" />";
         } else {
             condition = data.query.results.channel.item.condition.text
